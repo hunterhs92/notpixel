@@ -15,7 +15,7 @@ if not exist .venv\Lib\site-packages\installed (
         pip install wheel
         echo Đang cài đặt các dependencies...
         pip install -r requirements.txt
-        echo. > venv\Lib\site-packages\installed
+        echo. > .venv\Lib\site-packages\installed
     ) else (
         echo requirements.txt không tồn tại, bỏ qua việc cài đặt dependencies.
     )
